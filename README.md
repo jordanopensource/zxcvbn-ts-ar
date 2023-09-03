@@ -1,4 +1,4 @@
-# @zxcvbn-ts/language-ar
+# @josango/zxcvbn-ts-language-ar
 
 The Arabic dictionary and language package for [**zxcvbn-ts**](https://github.com/zxcvbn-ts/zxcvbn)
 
