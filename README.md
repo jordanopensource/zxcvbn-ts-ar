@@ -1,23 +1,36 @@
 # @zxcvbn-ts/language-ar
 
-The Arabic dictionary and language package for **zxcvbn-ts**
+The Arabic dictionary and language package for [**zxcvbn-ts**](https://github.com/zxcvbn-ts/zxcvbn)
 
 ## Installation
 
-#### npm:
+### npm
 
-`npm install @zxcvbn-ts/language-ar --save`
+```sh
+# install zxcvbn core and common packages
+npm i @zxcvbn-ts/core @zxcvbn-ts/language-common
 
-#### yarn:
+# install the Arabic package
+npm i @josango/zxcvbn-ts-language-ar --save
 
-`yarn add @zxcvbn-ts/language-ar`
+```
+
+### yarn
+
+```sh
+# install zxcvbn core and common packages
+yarn add @zxcvbn-ts/core @zxcvbn-ts/language-common
+
+# install the Arabic package
+yarn add @josango/zxcvbn-ts-language-ar
+```
 
 ## Setup
 
 ```js
 import { zxcvbn, zxcvbnOptions } from '@zxcvbn-ts/core'
 import * as zxcvbnCommonPackage from '@zxcvbn-ts/language-common'
-import * as zxcvbnArPackage from '@zxcvbn-ts/language-ar'
+import * as zxcvbnArPackage from '@josango/zxcvbn-ts-language-ar'
 
 const password = 'somePassword'
 const options = {
